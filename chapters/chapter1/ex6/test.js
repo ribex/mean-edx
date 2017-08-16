@@ -1,3 +1,10 @@
+// test in terminal with:
+// mocha test.js
+// -or-
+// mocha -g "fail" test.js -or- mocha -R dot test.js -or- mocha -R xunit test.js
+// -or- 
+// mocha -R nyan test.js
+
 var assert = require('assert');
 
 describe('my feature', function() {
